@@ -1,0 +1,89 @@
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+body
+{
+    width: 800px;
+    margin: auto;
+}
+
+img
+{
+    width: 100px;
+}
+
+/* menu */
+#menu > a
+    {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+#menu > a > img
+    {
+        display: block;
+        margin: auto;
+        height: 100%;
+    }
+menu > ul
+    {
+        width: 60%;
+        line-height: 7em;
+        float: left;
+        text-align: center;
+    }
+#menu > ul > li
+    {
+        display: inline;
+    }
+#menu > form
+    {
+        width: 20%;
+        line-height: 7em;
+        float: left;
+    }
+#menu > form > h3
+    {
+        text-align: center;
+    }
+
+/* teksjte bovenin */
+#tekstje_bovenin
+    {
+        clear: both;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+#tekstje_bovenin > h1, #tekstje_bovenin > h2
+    {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+#filmpje
+    {
+        width: 80%;
+    }
+
+/* main */
+main
+    {
+        clear: both;
+        width: 100%;
+    }
+main > .main_article
+    {
+        width: 50%;
+        float: left;
+    }
+main > .main_article > a
+    {
+        float: left;
+    }

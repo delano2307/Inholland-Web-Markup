@@ -1,0 +1,17 @@
+---HTML---
+<id>: Ken je toe aan tag(??) om het makkelijker aan te kunnen passen in css en om de rang van iets te bepalen???
+<class>: Ken je toe aan tag(??) om het makkelijker aan te kunnen passen in css en om de rang van iets te bepalen???
+class > id
+
+<a>: Hyperlink
+
+<li>: list
+<ul>: Unordered list
+
+---CSS---
+<margin>: Ruimte om een element heen, buiten de borders.
+<pading> Ruimte om een element heen, binnen de borders. Dus om de inhoud van een element.
+
+<display block>: /n na iets???
+
+<1em>: gelijk aan de font groote
