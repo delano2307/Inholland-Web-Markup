@@ -16,3 +16,64 @@ img
     {
         width: 100px;
     }
+
+#mainmenu > a
+    {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+#mainmenu > a > img
+    {
+        display: block;
+        margin: auto;
+        height: 100%;
+    }
+#mainmenu > ul
+    {
+        width: 60%;
+        line-height: 7em;
+        float: left;
+        text-align: center;
+    }
+#mainmenu > ul > li
+    {
+        display: inline;
+    }
+#mainmenu > form
+    {
+        width: 20%;
+        line-height: 7em;
+        float: left;
+    }
+#mainmenu > form > h3
+    {
+        text-align: center;
+    }
+
+#company_payoff
+    {
+        clear: both;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+#company_payoff > h1, #company_payoff > h2
+    {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+main
+    {
+        clear: both;
+        width: 100%;
+    }
+main > .main_article
+    {
+        width: 50%;
+        float: left;
+    }
+main > .main_article > a
+    {
+        float: left;
+    }
