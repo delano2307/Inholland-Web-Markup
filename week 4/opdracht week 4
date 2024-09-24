@@ -12,33 +12,203 @@
     </head>
     <body>
 
-        <nav>
+        <nav id="mainmenu">
+            <a href="#">
+                <img src="img/x.png" alt="" title="" />
+            </a>
+            <ul>
+                <li>
+                    <a href="#" >
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" >
+                        Blog
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" >
+                        Archives
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" >
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <form>
+                <h3>SEARCH</h3>
+            </form>
 
         </nav>
 
-        <header>
+        <header id="company_payoff">
+            <h1>
+                Hey&comma; welcome to your awesome...
+            </h1>
 
+            <h2>
+                Tell the world about your...
+            </h2>
         </header>
 
-        <aside>
-
+        <aside id="company_aside">
+            <video controls autoplay id="company_aside_video">
+                    <source src="video/x.mp4" type="video/mp4">
+                    <source src="video/x.ogg" type="video/ogg">
+                    You do not support this video.
+            </video>
+            <a href="#">
+                <img src="img/x.png" alt="" title="" />
+            </a>
+            <a href="#">
+                <img src="img/x.png" alt="" title="" />
+            </a>
+            <a href="#">
+                <img src="img/x.png" alt="" title="" />
+            </a>
         </aside>
 
-        <article>
+        <main>
+            <article class="main_article">
+                <a href="#">
+                    <img src="img/x.png" alt="" title=""/>
+                </a>
+                <header>
+                    Learn the basics
+                </header>
+                <p>
+                    qwerty
+                </p>
+                <a href="#">
+                    Continue reading...
+                </a>
+            </article>
 
-        </article>
-        <article>
-            
-        </article>
-        <article>
-            
-        </article>
-        <article>
-            
-        </article>
+            <article class="main_article">
+                <a href="#">
+                    <img src="img/x.png" alt="" title=""/>
+                </a>
+                <header>
+                    Grab some free stuff
+                </header>
+                <p>
+                    qwerty
+                </p>
+                <a href="#">
+                    Continue reading...
+                </a>
+            </article>
 
-        <footer>
+            <article class="main_article">
+                <a href="#">
+                    <img src="img/x.png" alt="" title=""/>
+                </a>
+                <header>
+                    Natural design
+                </header>
+                <p>
+                    qwerty
+                </p>
+                <a href="#">
+                    Continue reading...
+                </a>
+            </article>
 
+            <article class="main_article">
+                <a href="#">
+                    <img src="img/x.png" alt="" title=""/>
+                </a>
+                <header>
+                    Get up close
+                </header>
+                <p>
+                    qwerty
+                </p>
+                <a href="#">
+                    Continue reading...
+                </a>
+            </article>
+        </main>
+
+        <footer id="company_footer">
+            <section id="company_footer_section_1">
+                <a href="#">
+                    <img src="img/x.png" alt="" title="" />
+                </a>
+                <p>
+                    Your about us..
+                </p>
+                <p>
+                    You could also..
+                </p>
+                <a href="#">
+                    Find out more..
+                </a>
+            </section>
+
+            <section id="company_footer_section_2">
+                <aside>
+                    <header>
+                        Twitter feed
+                    </header>
+                    <p>
+                        hey...
+                    </p>
+                    <p>
+                        thanks...
+                    </p>
+                </aside>
+
+                <article>
+                    <header>
+                        Latest post
+                    </header>
+                    <h1>
+                        Your article..
+                    </h1>
+                    <p>
+                        This would be..
+                    </p>
+                </article>
+
+                <header>
+                    Flickr feed
+                </header>
+                <section>
+                    <a href="https://flickr.com/#"></a>
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                    <a href="https://flickr.com/#">
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                    <a href="https://flickr.com/#">
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                    <a href="https://flickr.com/#">
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                    <a href="https://flickr.com/#">
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                    <a href="https://flickr.com/#">
+                        <img src="img/x.png" atl="" title="" />
+                    </a>
+                </section>
+
+            </section>
         </footer>
         
     </body>
