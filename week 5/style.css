@@ -1,0 +1,34 @@
+header
+{
+    grid-area: headerTag;
+}
+nav
+{
+    grid-area: navTag;
+}
+section
+{
+    grid-area: sectionTag;
+}
+aside
+{
+    grid-area: asideTag;
+}
+footer
+{
+    grid-area: footerTag;
+}
+
+#gridcontainer
+{
+    background-color: #F8F;
+    border: solid 10px #F0F;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: 
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     sectionTag  sectionTag  sectionTag  sectionTag  asideTag    ';
+}

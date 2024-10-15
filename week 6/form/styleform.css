@@ -1,0 +1,35 @@
+body
+{
+    width: 100%;
+}
+body > form > p
+{
+    width: 100%;
+    font-size: 24px;
+}
+#naam
+{
+    width: 50%;
+    float: left;
+}
+#naam > input
+{
+    width: 90%;
+}
+#mail
+{
+    width: 50%;
+    float: right;
+}
+#mail > input
+{
+    width: 90%;
+}
+#site > input
+{
+    width: 95%;
+}
+#bericht > input
+{
+    width: 95%;
+}
