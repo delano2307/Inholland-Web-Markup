@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name = "keywords" content="zuid, holland, zuid-holand, bezienswaardigheden, activiteiten" />
+        <meta name = "description" content= "Een website waar je informatie kan vinden over Zuid-Holland en leuke activiteiten/bezienswaardigheden die je kan bezoeken." />
+        <link rel="stylesheet" type="text/css" href=".//home_page_style.css" />
+        <link rel="global stylesheet" type="text/css" href=".//global_footer.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="../eindopdracht/img/favicon-32x32.png" type="image/x-icon">
+        <meta name = "author" content = "Delano" />
+
+        <title>Zuid-Holland Home</title>        
+    </head>
+
+    <body>
+        <p class="cookie-message">
+            Deze website gebruikt cookies om de gebruikerservaring te verbeteren. 
+            <button class="accept-button" onclick="acceptCookies()">Accepteer</button>
+        </p>
+    
+        <script>
+            function acceptCookies() {
+                // Verberg de cookie message
+                document.querySelector(".cookie-message").style.display = "none";
+            }
+        </script>
+
+        <header>
+            <a href="#">
+                <img src="../eindopdracht/img/logo.png" title="Zuid-Holland logo" alt="Geel logo van Zuid-Holland met een molentje" class="logo">
+            </a>
+            
+            <nav id="navigatie">
+                <ul>
+                    <li><a href="#" class="huidige-pagina">Zuid-Holland</a></li>
+                    <li><a href="keukenhof.html">Keukenhof</a></li>
+                    <li><a href="madurodam.html">Madurodam</a></li>
+                    <li><a href="diergaarde_blijdorp.html">Diergaarde Blijdorp</a></li>
+                    <li><a href="rotterdamse-markthal.html">Rotterdamse markthal</a></li>
+                    <li><a href="contact.html" class="contact-button">Contact</a></li>
+
+                </ul>
+            </nav>
+
+            <section id="ham-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+        
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Zuid-Holland</a></li>
+                        <li><a href="keukenhof.html">Keukenhof</a></li>
+                        <li><a href="madurodam.html">Madurodam</a></li>
+                        <li><a href="diergaarde_blijdorp.html">Diergaarde Blijdorp</a></li>
+                        <li><a href="rotterdamse-markthal.html">Rotterdamse markthal</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <section class="hero">
+            <h1><strong>Zuid-Holland</strong></h1>
+            <p>En haar mooie bezienswaardigheden</p>
+            <button id="cta" onclick="document.getElementById('eerste-tekst').scrollIntoView({ behavior: 'smooth' });"><strong>&darr; Lees hieronder verder &darr;</strong></button>
+        </section>
+    
+        <main>
+            
+
+            <section class="content">
+                <article class="info" id="eerste-tekst">
+                    <Section>
+                        <h2>Zuid-Holland</h2>
+                        <h4>Samenvatting en Geschiedenis</h4>
+                        <p id="indent">Zuid-Holland is een provincie in het westen van Nederland, bekend om zijn mooie steden, rijke geschiedenis en economische belang. De hoofdstad is Den Haag, het politieke hart van Nederland, en Rotterdam is de grootste stad en heeft een van de grootste havens ter wereld. Zuid-Holland is een centrum voor politiek, handel en cultuur, met veel verschillende bezienswaardigheden zoals de Keukenhof, Madurodam en de Rotterdamse markthal. De provincie is een mix van stedelijke gebieden, natuur, landbouw en waterwegen, en speelt een belangrijke rol in de Nederlandse economie en infrastructuur.</p>
+                    </Section>
+                    <img id="geel" src="../eindopdracht/img/zuid holland achtergrond.png" title="Zuid-Holland" alt="Gegenereerde afbeelding van een landschap in Zuid-Holland">
+                </article>
+                
+                <article id="banner">
+                    <img src="../eindopdracht/img/agga.png" title="Den-Haag" alt="Wijde afbeelding van Den-Haag">
+                </article>
+    
+                <article class="info">
+                    <section>
+                        <h2>Den Haag ('s Gravenhage)</h2>
+                        <h4>De hoofdstad van Zuid-Holland</h4>
+                        <p id="indent">Den Haag is de politieke hoofdstad van Nederland en de op 2 na grootste stad van het land. Hoewel Amsterdam de officiële hoofdstad is, bevindt de Nederlandse regering, het parlement en het koninklijk huis zich in Den Haag. In de stad zitten ook internationale organisaties zoals het Internationaal Gerechtshof en het Internationaal Strafhof, wat Den Haag een belangrijk centrum voor internationale diplomatiek maakt.</p>
+                    </section>
+                    <img id="geel" src="../eindopdracht/img/binnenhof den haag.jpg" title="Binnenhof" alt="Afbeelding van het binnenhof in Den-Haag">
+                </article>
+
+                <article id="banner">
+                    <img src="../eindopdracht/img/roffa.png" title="Rotterdam" alt="Wijde afbeelding van Rotterdam">
+                </article>
+    
+                <article class="info">
+                    <img id="geel" src="../eindopdracht/img/rotterdam schip.jpg" title="Schip Rotterdam" alt="Afbeelding van een groot cruise schip in Rotterdam">
+                    <section>
+                        <h2>Rotterdam</h2>
+                        <h4>De grootste stad van Zuid-Holland</h4>
+                        <p id="indent">Rotterdam is de op één na grootste stad van Nederland, gelegen in de provincie Zuid-Holland. Bekend om zijn moderne architectuur en de grote Rotterdamse  haven, die een van de grootste ter wereld is, speelt de stad een cruciale rol in de internationale handel. Na de verwoestingen van de Tweede Wereldoorlog heeft Rotterdam een uitgebreide wederopbouw ondergaan, wat resulteerde in iconische gebouwen zoals de Erasmusbrug, de Markthal en de Kubuswoningen.</p>
+                    </section>
+                </article>
+            </section>
+
+            
+        </main>
+    
+        <footer>
+            <ul>
+                <ul id="logo-en-copy">
+                    <li>
+                        <a href="#">
+                            <img src="../eindopdracht/img/logo.png" title="Zuid-Holland logo" alt="Geel logo van Zuid-Holland met een molentje">
+                        </a>
+                    </li>
+                    <li>
+                        <p>&copy;2024 Delano Simaeala.</p>
+                        <p>Alle rechten voorbehouden.&copy;</p>
+                    </li>
+                </ul>
+
+                <ul id="foot-nav1">
+                    <li><a href="#">Zuid-Holland</a></li>
+                    <li><a href="diergaarde_blijdorp.html">Diergaarde Blijdorp</a></li>
+                </ul>
+                <ul id="foot-nav2">
+                    <li><a href="keukenhof.html">Keukenhof</a></li>
+                    <li><a href="rotterdamse-markthal.html">Rotterdamse markthal</a></li>
+                </ul>
+                <ul id="foot-nav3">
+                    <li><a href="madurodam.html">Madurodam</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </ul>
+        </footer>
+
+
+
+    </body>
+
+</html>
