@@ -1,0 +1,4 @@
+Student name: Delano Simaela
+Student number: 733923
+Student class: HAINFVT1a 
+GitHub Repository: https://github.com/delano2307/Inholland-Web-Markup/tree/main/eindopdracht
